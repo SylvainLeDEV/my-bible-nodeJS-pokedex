@@ -24,7 +24,7 @@ require('./src/routes/updatePokemon')(app);
 require('./src/routes/deletePokemon')(app);
 require('./src/routes/login')(app);
 
-app.get('/',(req,res,next) => {
+app.get('/test',(req,res,next) => {
 
     res.send('Hello heruko')
 
